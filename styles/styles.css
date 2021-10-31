@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+body {
+  background-color: #ddd8c7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 25%;
+}
+
+.intro {
+  display: inline;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border: solid black;
+  border-width: 1 1 1 1;
+  width: 600px;
+  margin: auto;
+  margin-top: -50px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.logo {
+  display: inline;
+  width: 250px;
+  height: auto;
+  margin-top: -50px;
+}
+
+.button {
+  display: flex;
+  width: auto;
+  position: absolute;
+  height: 55px;
+  top: 10px;
+  right: 10px;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #1b203d;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  margin: auto;
+  font-size: 50px;
+}
+
+.buttonone,
+.buttontwo,
+.buttonthree {
+  background-color: #1b203d;
+  margin-left: 150px;
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.buttonfour {
+  background-color: rgba(216, 191, 49, 0.897);
+  display: flex;
+  position: absolute;
+  border-radius: 25px;
+  top: 10px;
+  left: 10px;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+.buttonone:hover,
+.buttontwo:hover,
+.buttonthree:hover {
+  background-color: green;
+}
+
+.buttonfour:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .intro {
+    width: 300px;
+    border-width: 0 0 0 0;
+  }
+  h1 {
+    font-size: 10px;
+  }
+}
