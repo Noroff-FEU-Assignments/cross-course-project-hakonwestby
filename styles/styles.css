@@ -83,10 +83,6 @@ a {
   background-color: green;
 }
 
-.buttonfour:hover {
-  background-color: red;
-}
-
 @media screen and (max-width: 600px) {
   .logo {
     display: none;
