@@ -23,14 +23,19 @@ footer {
   border-width: 1 1 1 1;
   width: 600px;
   margin: auto;
-  margin-top: -50px;
 }
 
-h1 {
+h1,
+h2 {
   text-transform: uppercase;
   text-decoration: underline;
 }
 
+h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
 .logo {
   display: inline;
   width: 250px;
@@ -62,33 +67,19 @@ a {
   text-transform: uppercase;
   font-family: Impact, "Arial Narrow Bold", sans-serif;
   margin: auto;
-  font-size: 50px;
+  font-size: 45px;
 }
 
-.buttonone,
-.buttontwo,
-.buttonthree {
+.navbutton {
   background-color: #1b203d;
   margin-left: 150px;
   width: 300px;
   height: auto;
   border-radius: 15px;
+  text-decoration: none;
 }
 
-.buttonfour {
-  background-color: rgba(216, 191, 49, 0.897);
-  display: flex;
-  position: absolute;
-  border-radius: 25px;
-  top: 10px;
-  left: 10px;
-  width: auto;
-  margin-left: 0;
-  margin-right: 0;
-}
-.buttonone:hover,
-.buttontwo:hover,
-.buttonthree:hover {
+.navbutton:hover {
   background-color: green;
 }
 
