@@ -331,6 +331,9 @@ h5 {
 
 }
 
+.btn:hover {
+  color: green;
+}
 .cvc{
   display: flex;
   justify-content: space-between;
