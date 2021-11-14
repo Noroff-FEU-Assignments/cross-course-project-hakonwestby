@@ -331,8 +331,9 @@ h5 {
 
 }
 
-.btn:hover {
+.btn:hover, .registration:hover {
   color: green;
+  cursor: pointer;
 }
 .cvc{
   display: flex;
