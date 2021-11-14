@@ -105,6 +105,32 @@ a {
   margin: auto;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: solid black;
+  width: 750px;
+  padding: 25px;
+  margin: auto;
+}
+
+.sign-in {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.registration {
+  background-color: #1b203d;
+  border-radius: 2px;
+  margin-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+}
 .navigation, .back-button {
   text-decoration: none;
   text-align: center;
@@ -156,15 +182,17 @@ li {
 }
 
 @media screen and (max-width: 600px) {
-  .logo {
-    display: none;
-  }
+
   .intro {
     width: 300px;
     border-width: 0 0 0 0;
   }
-  h1 {
+  h1{
     font-size: 10px;
+  }
+
+  .registration, .container {
+    width: 100%;
   }
   .support, .about-us {
     width: 300px;
