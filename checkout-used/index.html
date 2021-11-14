@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Checkout</title>
+    <meta
+      charset="UTF-8"
+      name="description"
+      content="This page is for video game enthusiasts."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="imagelink">
+        <img src="../images/GameHub_Logo.png" alt="GameHub Logo" class="logo" />
+      </a>
+      <div class="back-button">
+        <a class="back" href="../index.html"><p>Back to Homepage</p> </a>
+      </div>
+    </header>
+    <main>
+        <form action="../purchase-completed/index.html" method="get">
+        <div class="wrapper">
+            <div class="container">
+              <div class="title">Checkout Form</div>
+              
+              <div class="input-form">
+                <div class="section-1">
+                  <div class="items">
+                    <label class="label">Card Number</label>
+                    <input type="text" class="input" placeholder="1234 5678 1234 5678" required />
+                  </div>
+                </div>
+                <div class="section-2">
+                  <div class="items">
+                    <label class="label">Full Name</label>
+                    <input type="text" class="input" placeholder="Full Name" required />
+                    <label class="label">Address</label>
+                    <input type="text" class="input" placeholder="South West Street" required/>
+                    <label class="label">Email</label>
+                    <input type="text" class="input" placeholder="myemail@email.com" required/>
+                  </div>
+                </div>
+                <div class="section-3">
+                  <div class="items">
+                    <label class="label">Expiration date</label>
+                    <input type="text" class="input" placeholder="Month/Year">
+                  </div>
+                  <div class="items">
+                    <div class="cvc">
+                      <label class="label">CVV Code</label>
+                    </div>
+                    <input type="text" class="input"  placeholder="123">
+                  </div>
+                </div>
+              </div>
+      <div class="checkout">
+        <div class="space-war">
+          <h4>Cart:</h4>
+          <img
+            src="../images/space-war_cover.jpg"
+            alt="Space War - video game"
+          />
+          <p><b>Space War</b></p>
+          <p>Used Variant: 29.99$</p>
+          <p>Shipping: Free</p>
+          <p>Seller: Marcus Hamillton</p>
+        </div>
+      </div>
+      <button class="btn" type="submit">
+         Pay
+        </button>
+    </form>
+    </main>
+  </body>
+</html>
