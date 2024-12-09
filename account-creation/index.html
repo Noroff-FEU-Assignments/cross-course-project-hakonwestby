@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>GH: Create Account</title>
+    <meta name="description" content="This page is for creating your account" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="imagelink">
+        <img src="../images/GameHub_Logo.png" alt="GameHub Logo" class="logo" />
+      </a>
+      <div class="back-button">
+        <a class="back" href="../index.html"><p>Back to Homepage</p> </a>
+      </div>
+    </header>
+    <main>
+      <form>
+        <div class="container">
+          <h4>Creating your GameHub Account!</h4>
+          <p>Fill out the required fields below.</p>
+          <label for="email"><b>Email:</b></label>
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            id="email"
+            required
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            id="psw"
+            required
+          />
+
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            name="psw-repeat"
+            id="psw-repeat"
+            required
+          />
+          <button type="submit" class="registration">Submit</button>
+        </div>
+        <div class="sign-in">
+          <p>
+            Already registered?
+            <a href="../game-library/index.html">Sign in!</a>
+          </p>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>- - - Property of GameHub ©</p>
+    </footer>
+  </body>
+</html>

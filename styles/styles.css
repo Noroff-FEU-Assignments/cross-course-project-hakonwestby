@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+body {
+  background-color: #ddd8c7;
+  margin: 0 auto;
+  width: auto;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+footer {
+  margin-top: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 25%;
+}
+
+.intro {
+  display: inline;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border: solid black;
+  border-width: 1 1 1 1;
+  width: 600px;
+  margin: auto;
+}
+
+.thank-you, h6 {
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+.about-us {
+  font-family: "-apple-system, BlinkMacSystemFont, "Segoe UI"
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    align-content: center;
+    border: solid black;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: -65px;
+    display: flex;
+    flex-direction: column;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid black;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 300px;
+  margin-top: -50px;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 35px;
+}
+
+.support-buttons {
+  text-decoration: none;
+}
+
+h1,
+h2, .back-button {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+.logo {
+  display: inline;
+  width: 250px;
+  height: auto;
+  margin-top: auto;
+}
+
+.button {
+  display: flex;
+  width: auto;
+  position: absolute;
+  height: 55px;
+  top: 10px;
+  right: 10px;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #1b203d;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: solid black;
+  width: 750px;
+  padding: 25px;
+  margin: auto;
+}
+
+.sign-in {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.registration {
+  background-color: #1b203d;
+  border-radius: 2px;
+  margin-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+}
+.navigation, .back-button {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #1b203d;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  width: auto;
+  text-transform: uppercase;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 45px;
+}
+
+.back {
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto;
+  color:white ;
+}
+
+.support-buttons, .support {
+  text-decoration: none;
+}
+.back:hover {
+  color: red;
+}
+
+.back-button {
+  padding: auto;
+  margin-bottom: 150px;
+  
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  padding: auto;
+}
+
+li {
+  padding: 20px;
+  width: auto;
+}
+
+.navigation:hover {
+  background-color: green;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 85px;
+  background-color: #1b203d;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 15px;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.used-products, .new-products {
+  width: 200px;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.used-products a, .new-products a {
+  text-decoration: none;
+  background-color: #1b203d;
+  color: white;
+  border-radius: 10px;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-left: 115px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.product-one, .product-two, .product-three {
+  border: solid #1b203d;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: auto;
+  font-size: 30px;
+ 
+}
+
+.billing {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.checkout {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+.checkout img {
+  width: 150px;
+}
+
+.product-one img, .product-two img, .product-three img {
+  width: 500px;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 10px;
+}
+
+.container{
+  max-width: 500px;
+  height: auto;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px 40px 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 7px solid #1b203d;
+}
+
+.title{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.input-form{
+  margin-bottom: 20px;
+}
+
+.input-form .label{
+	  display: block;
+    font-size: 1em;
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.input-form .items{
+  margin-bottom: 20px;
+}
+
+.section-1 .items .input,
+.section-2 .items .input,
+.section-3 .items .input{
+    background: transparent;
+    border: 2px solid #BDBDBD;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #212121;
+    border-radius: 3px;
+}
+
+.input-form .section-3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-form .section-3 .items{
+   width: 48%;
+}
+
+.btn{
+	background: #1b203d;
+  color: white;
+	font-size: 1.25em;	
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+}
+
+.btn:hover, .registration:hover {
+  color: green;
+  cursor: pointer;
+}
+.cvc{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.cvc .tooltip{
+  color: #1b203d;
+  border: 2px solid #d4d4d4;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align:center;
+  cursor: pointer;
+}
+
+.space-war {
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .intro {
+    width: 300px;
+    border-width: 0 0 0 0;
+  }
+  h1{
+    font-size: 10px;
+  }
+
+  .registration, .container {
+    width: 100%;
+  }
+  .support, .about-us {
+    width: 300px;
+  }
+  .product-one img, .product-two img, .product-three img {
+    width: 185px;
+   }
+   .used-products a, .new-products a {
+     font-size: 25px;
+     margin-left: 30px;
+     padding: 1px;
+
+   }
+ 
+}
